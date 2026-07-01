@@ -26,6 +26,16 @@ namespace ConsoleApp5
             Console.WriteLine("Enter student Course of study");
             courseOfStudy= Console.ReadLine();
 
+            //Enter marks for midsemester, final exam, and class test
+            Console.WriteLine("Enter student Class Test marks: ");
+            classtest = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter student Midsemester marks: ");
+            midsemester = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter student Final Exam marks: ");
+            finalexam = Convert.ToDouble(Console.ReadLine());
+          
+
+
         }
     }
 }
